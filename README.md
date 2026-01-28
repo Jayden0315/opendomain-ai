@@ -19,5 +19,5 @@
 参考 [docs/contribution.md](docs/contribution.md)
 
 ## 联系方式
-- GitHub Discussions：[链接]
-- 开发者交流群：[可选，添加二维码/群号]
+- GitHub Discussions：[可直接点击讨论]
+- 开发者交流群：[创建中]
