@@ -1,0 +1,14 @@
+{
+  "name": "opendomain-ai-frontend",
+  "version": "0.1.0",
+  "description": "OpenDomain AI 前端管理后台",
+  "dependencies": {
+    "vue": "^3.3.4",
+    "element-plus": "^2.3.8",
+    "pinia": "^2.1.6",
+    "axios": "^1.5.1"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}
