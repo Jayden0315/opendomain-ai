@@ -1,0 +1,35 @@
+# 模型配置
+llm:
+  default_model: deepseek
+  models:
+    deepseek:
+路径: /models/deepseek-llm-7b-chat
+量化: INT4
+最大标记数: 2048
+    qwen:
+路径: /models/Qwen-7B-Chat
+量化: INT4
+最大标记数: 2048
+
+# 插件配置
+插件:
+启用: true
+插件目录: ./plugins
+内置插件:
+    - 客户标签插件
+    - 敏感词插件
+    - 内容生成插件
+
+# 合规配置
+合规性:
+敏感词检查: true
+  ai_content_label: true
+  audit_log: true
+  data_encrypt:
+密钥: your_encrypt_key# 需替换为自定义密钥（32位）
+    algorithm: AES
+
+# 企微配置
+wecom:
+  api_rate_limit: 100  # 接口调用频率限制（次/分钟）
+  retry_times: 3       # 接口重试次数
