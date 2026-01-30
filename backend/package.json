@@ -1,0 +1,24 @@
+{
+  “name”: “opendomain-ai-backend”,
+  "version": "0.1.0",
+  "description": "OpenDomain AI 后端服务",
+  "dependencies": {
+    "fastapi": "^0.104.1",
+    "uvicorn": "^0.24.0",
+    "python-multipart": "^0.0.6",
+    "psycopg2-binary": "^2.9.9",
+    "redis": "^5.0.1",
+    "wecom-sdk": "^1.2.0",
+    "langchain": "^0.1.0",
+    "chromadb": "^0.4.24",
+    "sentence-transformers": "^2.2.2",
+    "transformers": "^4.36.2",
+    "torch": "^2.1.2",
+    "pycryptodome": "^3.19.0",  // 数据脱敏加密
+    "pydantic": "^2.5.2"
+  },
+  "scripts": {
+    "start": "uvicorn main:app --host 0.0.0.0 --port 8000 --reload",
+    "test": "pytest"
+  }
+}
